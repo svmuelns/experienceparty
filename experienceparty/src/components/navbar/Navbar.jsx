@@ -27,12 +27,12 @@ function Navbar() {
                 <ul className="nav__list" id="nav__list">
                     <li className="nav__item hide"> 
                         <a href="#home" onClick={toggle} className={`nav__link ${color? 'scrolling-font-color': ''}`}>
-                            Pubcrawl
+                            Party
                         </a>
                     </li>
                     <li className="nav__item"> 
                         <a href="#about" onClick={toggle} className={`nav__link ${color? 'scrolling-font-color': ''}`}>
-                            Party
+                            Pubcrawl
                         </a>
                     </li>
                 </ul>

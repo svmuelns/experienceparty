@@ -125,6 +125,9 @@ main
 {
     overflow-x: hidden;
 }
+.hidden {
+    display: none;
+}
 /*=============== REUSABLE CSS CLASSES =================*/
 
 .section{
@@ -255,11 +258,12 @@ main
 }
 .hero__titles *{
     color: var(--title-color);
-    font-family: 'Poppins';
+    font-family: var(--body-font);
     font-weight: 700;
     font-size: var(--biggest-font-size);
     color: white;
     text-transform: capitalize;
+    z-index: 99;
 }
 /* .hero__title{
     padding-right: 5rem; 
@@ -395,13 +399,22 @@ main
 .bear{
     max-height: 1000px;
     position: absolute;
-    top: 20%;
+    top: 50%;
     right: 0;
+    z-index: 1;
 }
 @media screen and (max-width: 340px){
     body
     {
         margin: 0;
+    }
+    .bear{
+        max-height: 500px;
+    }
+}
+@media screen and (min-width: 340px){
+    .bear{
+        max-height: 500px;
     }
 }
 @media screen and (min-width: 500px){
@@ -409,11 +422,18 @@ main
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
+    .bear{
+        max-height: 600px;
+    }
 }
 @media screen and (min-width: 645px){
     /* .hero__images img{
         max-width: 30rem;
     } */
+    .bear{
+        max-height: 700px;
+        top: 30%;
+    }
 }
 @media screen and (min-width: 768px){
     .section
@@ -432,6 +452,13 @@ main
     }
     .hero__buttons a{
         padding: 1.1em 1.1em !important;
+    }
+    .hero__titles *{
+        font-size: 4.5rem;
+    }
+    .bear{
+        top:30%;
+        max-height: 848px;
     }
 }
 @media screen and (min-width: 1024px){
@@ -461,6 +488,10 @@ main
     }
     .hero__buttons a{
         padding: 1.3em 1.3em !important;
+    }
+    .bear{
+        top: 15%;
+        max-height: 1000px;
     }
 }
 

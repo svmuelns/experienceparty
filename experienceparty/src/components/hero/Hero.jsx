@@ -51,7 +51,12 @@ function HeroSection() {
                 </div> */}
                 {/* </Fade> */}
             </div>
-            <img src={bear} className='bear'></img>
+            <div className="about__beartitle">
+                <h1 className="about__title title">
+                    OUR PARTY
+                </h1>
+                <img src={bear} className='bear'></img>
+            </div>
         </section>
     )
 }
