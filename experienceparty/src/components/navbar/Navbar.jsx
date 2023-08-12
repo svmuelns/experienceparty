@@ -27,12 +27,12 @@ function Navbar() {
                 <ul className="nav__list" id="nav__list">
                     <li className="nav__item hide"> 
                         <a href="#home" onClick={toggle} className={`nav__link ${color? 'scrolling-font-color': ''}`}>
-                            Party
+                            Experience
                         </a>
                     </li>
                     <li className="nav__item"> 
                         <a href="#about" onClick={toggle} className={`nav__link ${color? 'scrolling-font-color': ''}`}>
-                            Pubcrawl
+                            Party
                         </a>
                     </li>
                 </ul>
@@ -48,7 +48,7 @@ function Navbar() {
             <div className={`nav__menu ${nav ? 'show-menu': ''}`} id="nav-menu" >
                 <ul className="nav__list" id="nav__list">
                     <li className="nav__item hide"> 
-                        <a href="#delivery" onClick={toggle} className={`nav__link ${color? 'scrolling-font-color': ''}`}>
+                        <a href="#service" onClick={toggle} className={`nav__link ${color? 'scrolling-font-color': ''}`}>
                             Offers
                         </a>
                     </li>

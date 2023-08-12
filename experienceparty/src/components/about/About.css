@@ -2,12 +2,18 @@
     background-color: #000;
     padding-top: 0;
 }
-
+.about.section{
+    height: unset !important;
+}
+.about__container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 .about__beartitle{
     position: relative;
     height: 100%;
     width: 100%;
-    top: -100%;
 }
 .about__title{
     position: absolute;
@@ -15,11 +21,21 @@
     font-style: italic;
     background-color: white;
     width: fit-content;
-    z-index: 100;
+    z-index: 1;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+.about__info{
+    padding-top: 5rem;
+    
 }
 .about__subheader{
-    text-align: left;
+    text-align: center;
     width: 100%;
+    /* color: #319597; */
+    color:white;
     /* font-size: var(--biggest-font-size); */
 }
 .about-img{
@@ -28,63 +44,157 @@
     background-position-y: bottom;
     background-size: contain;
     width: 100%;
-    height: 53%;
-    position: absolute;
+    height: 53vh;
     object-fit: cover;
     z-index: 0;
     filter: brightness(60%);
+}
+.about__titles{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.alt__title{
+    font-size: var(--biggest-font-size);
+    color: white;
+}
+.accent{
+    color:  var(--primary-color);
+}
+.separator__container{
+    text-align: center;
+    line-height: 0;
+    margin-bottom: 2rem;
+}
+.separator{
+    border-top: 8px solid var(--primary-color);
+    width: 6%;
+    display: inline-block;
+}
+.separator__section{
+    background: #000;
+    height: 53vh;
+    position: relative;
+}
+.about__gallery{
+    width: 100%;
+    height: 50vh;
+    gap: 0;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "gallery__img4 gallery__img2 gallery__img2"
+    "gallery__img3 gallery__img3 gallery__img1";
+}
+.about__gallery *{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* transition: var(--img-transition);
+    overflow: var(--img-hidden); */
+}
+/* .about__gallery *:hover{
+    scale: 1.1;
+} */
+.gallery__img1 {
+    grid-area: gallery__img1;
+    background-color: yellow;
+}
+.gallery__img2 {
+    grid-area: gallery__img2;
+    background-color: blue;
+}
+.gallery__img3 {
+    grid-area: gallery__img3;
+    background-color: red;
+}
+.gallery__img4 {
+    grid-area: gallery__img4;
+    background-color: pink;
 }
 @media screen and (max-width:340px){
     .about__title {
         font-size: var(--biggest-font-size);
         padding: .5rem 1rem;
-        right: 0;
-        top: 50%;
-        margin-top: 500px;
     }
 }
 @media screen and (min-width:340px){
     .about__title {
         font-size: var(--biggest-font-size);
         padding: .75rem 2rem;
-        right: 0;
-        top: 50%;
-        margin-top: 500px;
     }
 }
 @media screen and (min-width:500px){
     .about__title {
         font-size: 3rem;
-        padding: .75rem 2rem;
-        right: 0;
-        top: 50%;
-        margin-top: 600px;
+    }
+    .alt__title{
+        font-size: 3rem;
     }
 }
 @media screen and (min-width: 645px){
     .about__title {
         font-size: 3.5rem;
         padding: 1 3rem;
-        right: 0;
-        top: 30%;
-        margin-top: 700px;
+    }
+    .alt__title{
+        font-size: 3.5rem;
     }
 }
 @media screen and (min-width: 768px){
-    .about__title {
-        font-size: 3.5rem;
-        padding: 1 3rem;
-        right: 0;
-        top: 30%;
-        margin-top: 848px;
+    .about__subheader{
+        text-align: left;
+    }
+    .about-img{
+        height: 60vh;
+    }
+    .separator__section{
+        height: 60vh;
+    }
+    .about__titles{
+        justify-content: left;
+    }
+    .separator__container{
+        text-align: left;
+        margin-left: 27%;
+        margin-bottom: 3rem;
+    }
+    .about__gallery *{
+        height: 300px;
+        object-position: top;
     }
 }
 @media screen and (min-width: 1024px){
     .about__title {
         font-size: 4rem;
-        padding: 1rem 3rem;
+    }
+    .alt__title{
+        font-size: 4rem;
+    }
+    .about__subheader{
+        font-size: var(--biggest-font-size);
+        margin-bottom: 3rem;
+    }
+    .about__info{
+        min-width: 60%;
+        max-width: 70%;
+        padding-left: 7%;
+        padding-right: 2rem;
+    }
+    #subheader2{
+        padding-left: 10%;
+    }
+    .about__container{
+        flex-direction: row;
+        max-width: 100%;
+    }
+    .about__gallery{
+        /* position: absolute;
         right: 0;
-        top: 15%;
-        margin-top: 1000px;
+        max-width: 30rem; */
+        max-height: 100vh;
+    }
+    .about__gallery *{
+        height: 355px;
     }
 } 

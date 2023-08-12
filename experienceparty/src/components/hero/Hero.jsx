@@ -2,10 +2,8 @@
 import React from 'react'
 import './Hero.css'
 import {FaFacebook, FaEnvelope, FaWhatsapp, FaPhoneAlt} from 'react-icons/fa'
-import hero from '../../assets/hero.jpg'
 import hero1 from '../../assets/wallpaper1.jpg'
 import hero2 from '../../assets/wallpaper2.jpg'
-import bear from '../../assets/bear.png'
 // import delivery from '../../assets/red_house.png'
 // import Fade from 'react-reveal/Fade';
 
@@ -50,12 +48,6 @@ function HeroSection() {
                     </a>
                 </div> */}
                 {/* </Fade> */}
-            </div>
-            <div className="about__beartitle">
-                <h1 className="about__title title">
-                    OUR PARTY
-                </h1>
-                <img src={bear} className='bear'></img>
             </div>
         </section>
     )
