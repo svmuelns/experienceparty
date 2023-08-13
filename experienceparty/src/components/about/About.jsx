@@ -22,7 +22,7 @@ function AboutSection() {
                         Looking for <span className="accent">the best bars and clubs</span> in Madrid?
                     </p>
                     <p className="about__subheader title" id="subheader2">
-                        <span className="accent">Meet people</span> of all around the world, <span className="accent">drunk!</span>
+                        <span className="accent">Meet people</span> of all around the world!
                     </p>
                     <p className="about__subheader title" id="subheader3">
                         Drink in every place, <span className="accent">for a cheap price.</span>

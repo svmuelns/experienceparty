@@ -37,7 +37,7 @@ function Navbar() {
                     </li>
                 </ul>
             </div>
-            <a href="#" alt="logo" className="nav__logo" id="logo1">
+            <a href="#service" alt="logo" className="nav__logo" id="logo1">
                 <img src={logo} className='logo'></img>
             </a>
             {/* <a href="#" alt="logo" className="nav__logo nav__logo-hidden" id="logo2">
@@ -48,7 +48,7 @@ function Navbar() {
             <div className={`nav__menu ${nav ? 'show-menu': ''}`} id="nav-menu" >
                 <ul className="nav__list" id="nav__list">
                     <li className="nav__item hide"> 
-                        <a href="#service" onClick={toggle} className={`nav__link ${color? 'scrolling-font-color': ''}`}>
+                        <a href="#pricing" onClick={toggle} className={`nav__link ${color? 'scrolling-font-color': ''}`}>
                             Offers
                         </a>
                     </li>

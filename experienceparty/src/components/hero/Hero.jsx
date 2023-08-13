@@ -1,7 +1,7 @@
 /*rfce*/
 import React from 'react'
 import './Hero.css'
-import {FaFacebook, FaEnvelope, FaWhatsapp, FaPhoneAlt} from 'react-icons/fa'
+import {FaFacebook, FaEnvelope, FaWhatsapp, FaPhoneAlt, FaTicketAlt} from 'react-icons/fa'
 import hero1 from '../../assets/wallpaper1.jpg'
 import hero2 from '../../assets/wallpaper2.jpg'
 // import delivery from '../../assets/red_house.png'
@@ -29,12 +29,12 @@ function HeroSection() {
                     </h3>
                 </div> */}
                 {/* <Fade left> */}
-                {/* <div className='hero__buttons'>
-                    <a href="tel:305-438-8987" className='hero-button primary-button button'>
-                        <FaPhoneAlt />
-                        Get a Quote
+                <div className='hero__buttons'>
+                    <a href="#pricing" className='hero-button primary-button button'>
+                        <FaTicketAlt />
+                        Buy Ticket
                     </a>
-                </div> */}
+                </div>
                 
                 {/* <div className='hero__socials'>
                     <a href="https://www.facebook.com/WN-Garage-duo-auto-repair-103639939067239" className='facebook'>
