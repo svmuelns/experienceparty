@@ -1,0 +1,51 @@
+.pricing__title{
+    text-align: center;
+    line-height: 1.1;
+    margin-bottom: 3rem;
+}
+.card__container{
+    gap: 3rem 1.25rem;
+    justify-items: center;
+}
+.card__article{
+    position: relative;
+    gap: 0;
+    background-color: #101010;
+    padding: 1.5rem 1.5rem 2rem;
+    border-radius: 1rem;
+    transition: .4s;
+    max-width: 320px;
+}
+.header__title{
+    color: white;
+    font-size: var(--biggest-font-size);
+}
+.header__subheader{
+    color: var(--primary-color);
+}
+.card__list{
+    gap: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.card__item{
+    display: flex;
+}
+.card__icon{
+    margin-top: .15rem;
+    margin-right: 1rem;
+}
+.card__description{
+    color: white;
+}
+
+@media screen and (min-width: 568px){
+    .card__container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 968px){
+    .card__container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
