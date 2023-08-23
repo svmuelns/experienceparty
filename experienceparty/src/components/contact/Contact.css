@@ -1,0 +1,23 @@
+.contact{
+    height: unset;
+}
+.contact__title{
+    text-align: center;
+    line-height: 1.1;
+    margin-bottom: 3rem;
+}
+.map{
+    width: 100%;
+    height: 300px;
+    /* filter: invert(90%) hue-rotate(180deg) */
+}
+.contact__info > .separator__container{
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+}
+.contact__subheader{
+    color: white;
+    margin-bottom: 3rem;
+    text-align: center;
+}

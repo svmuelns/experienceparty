@@ -1,0 +1,126 @@
+.footer{
+    height: 100vh;
+}
+.footer-img{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: contain;
+    width: 100%;
+    height: 53vh;
+    object-fit: cover;
+    z-index: 0;
+    /* filter: brightness(50%); */
+    object-position: bottom;
+    filter: brightness(0.5);
+}
+.footer__container{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer__title{
+    text-align: center;
+    align-self: center;
+    margin-bottom: 2rem;
+}
+.footer__div{
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    /* height: 110vh; */
+    /* min-height: 670px; */
+}
+.footer__div *{
+    color: white;
+    z-index: 1;
+}
+.footer__infos{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+}
+.footer__info{
+    display: flex;
+    gap: 2rem;
+    margin-left: 1rem;
+}
+.footer__buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.footer-button{
+    font-weight: var(--bold-weight);
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    transition: var(--img-transition);
+}
+.footer-button:hover{
+    opacity: .4;
+}
+.footer__subheaders{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.footer__titles a{ /*primary footerbutton */
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1em 1em !important;
+}
+#madeby{
+    font-size: var(--small-font-size);
+    text-align: right;
+    color: rgb(191 191 191);
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    background-color: #000;
+}
+#madeby a{
+    font-weight: var(--bold-weight);
+    color: white;
+}
+@media screen and (min-width: 768px){
+    .footer-img{
+        height: 60vh;
+    }
+    .footer__infos{
+        flex-direction: row;
+    }
+    .footer__div{
+        padding-bottom: 2rem;
+    }
+    .footer__titles{
+        margin-top: 45vh;
+    }
+    .footer__titles a{
+        padding: 1.1em 1.1em !important;
+    }
+}
+@media screen and (min-width: 1021px){
+    .footer-img{
+        height: 85vh;
+    }
+    .footer__titles{
+        margin-top: 50vh;
+    }
+    /* .footer__title{
+        font-size: 2rem;
+    } */
+    .footer__titles a{
+        padding: 1.3em 1.3em !important;
+    }
+}

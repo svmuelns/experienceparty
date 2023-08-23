@@ -1,5 +1,5 @@
 .service{
-    /* padding-top: 0; */
+    background-color: #101010;
 }
 .service__container{
     display: flex;
@@ -32,6 +32,11 @@
     font-weight: var(--bold-weight);
     color: white;
     text-align: center;
+}
+.logo-background{
+    position: absolute;
+    right: 0;
+    z-index: 0;
 }
 @media screen and (min-width: 500px){
 

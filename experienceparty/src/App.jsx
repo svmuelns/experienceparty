@@ -4,6 +4,8 @@ import Separator from "./components/about/Separator";
 import AboutSection from "./components/about/About";
 import ServiceSection from "./components/service/Service";
 import PricingSection from "./components/pricing/Pricing";
+import ContactSection from "./components/Contact/Contact";
+import FooterSection from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
     <AboutSection />
     <ServiceSection />
     <PricingSection />
+    <ContactSection />
+    <FooterSection />
     </>
   )
 }

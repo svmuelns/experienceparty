@@ -1,6 +1,7 @@
 import React from 'react'
 import './Service.css'
 import gallery5 from '../../assets/gallery5.jpg'
+import logo from '../../assets/logo.png'
 
 function ServiceSection() {
   return (
@@ -20,11 +21,12 @@ function ServiceSection() {
                 </div>
                 <div className="service__subheaders">
                     <p className="service__subheader">
-                        We're a <span className="accent">Pubcrawl</span>, a group of persons that guides you through bars and clubs in <span className="accent">Madrid, Spain</span> so you don't lose anything!
+                        We're a <span className="accent">Pubcrawl</span>, a group of persons that guides you through bars and clubs in <span className="accent">Madrid, Spain</span> so you don't lose anything<span className='accent'>!</span>
                     </p>
                 </div>
             </div>
         </div>
+        {/* <img src={logo} alt="logo" className='logo-background'/> */}
     </section>
   )
 }
