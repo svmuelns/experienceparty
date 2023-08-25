@@ -1,5 +1,6 @@
 .service{
     background-color: #101010;
+    height: unset;
 }
 .service__container{
     display: flex;
@@ -38,6 +39,10 @@
     right: 0;
     z-index: 0;
 }
+.service-img{
+    filter: unset;
+    object-position: center;
+}
 @media screen and (min-width: 500px){
 
 }
@@ -47,7 +52,9 @@
     }
 }
 @media screen and (min-width: 768px){
-
+    .service-img{
+        height: 68vh;
+    }
 }
 @media screen and (min-width: 1021px){
     .service__media{

@@ -100,8 +100,8 @@ function PricingSection() {
                 <article className="card__article grid">
                     <header className="card__header">
                         <h1 className="header__amount">250€</h1>
-                        <h3 className="header__subheader">Full Party</h3>
-                        <h2 className="header__title">Experience</h2>
+                        <h3 className="header__subheader white">Full Party</h3>
+                        <h2 className="header__title primary-color-animated">Experience</h2>
                     </header>
                     <ul className="card__list grid">
                         <il className="card__item">
