@@ -21,7 +21,7 @@ function App() {
     <ContactSection />
     <FooterSection />
     </>
-  )
+  );
 }
 
 export default App
