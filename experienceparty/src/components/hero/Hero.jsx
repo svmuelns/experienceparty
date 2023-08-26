@@ -11,24 +11,17 @@ function HeroSection() {
     return (
         <section className='hero' id='home'>
             <div className='hero__images'>
-                {/* <img src={hero} className='top'></img> */}
                 <img src={hero1} className='top'></img>
                 <img src={hero2} className='bottom'></img>
             </div>
 
             <div className='hero__container container'>
                 <div className='hero__titles'>
-                    <h1 className='hero__title'>A pubcrawl <br></br><span className="primary-color-animated">Experience</span></h1>
                     {/* <Fade left> */}
+                    <h1 className='hero__title'>A pubcrawl <br></br><span className="primary-color-animated">Experience</span></h1>
                     <h1 className='hero__subtitle'>with the <span className="primary-color-animated">Party</span> <br></br>people.</h1>
                     {/* </Fade> */}
                 </div>
-                {/* <div className='hero__subheaders'>
-                    <h3 className='hero__subheader'>
-                        Need a car mechanic? We're here<br></br> to get you going, wherever and whenever you need it.
-                    </h3>
-                </div> */}
-                {/* <Fade left> */}
                 <div className='hero__buttons'>
                     <a href="#pricing" className='hero-button primary-button button'>
                         <FaTicketAlt />
