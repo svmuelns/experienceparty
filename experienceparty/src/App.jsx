@@ -7,7 +7,7 @@ import ServiceSection from "./components/service/Service";
 import SeparatorTwo from "./components/service/SeparatorTwo";
 import PricingSection from "./components/pricing/Pricing";
 import ContactSection from "./components/contact/Contact";
-import FooterSection from "./components/footer/Footer";
+import FooterSection from "./components/Footer/Footer";
 
 function App() {
   return (
