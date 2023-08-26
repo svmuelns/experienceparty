@@ -1,3 +1,4 @@
+import React from "react";
 import HeroSection from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Separator from "./components/about/Separator";
