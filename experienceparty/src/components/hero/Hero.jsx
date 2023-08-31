@@ -23,10 +23,16 @@ function HeroSection() {
                     {/* </Fade> */}
                 </div>
                 <div className='hero__buttons'>
-                    <a href="#pricing" className='hero-button primary-button button'>
+                    {/* <a href="#pricing" className='hero-button primary-button button'>
                         <FaTicketAlt />
                         Buy Ticket
-                    </a>
+                    </a> */}
+                    <button class="pushable">
+                        <a href='#pricing' class="front">
+                            <FaTicketAlt />
+                            Buy Ticket
+                        </a>
+                    </button>
                 </div>
                 
                 {/* <div className='hero__socials'>
