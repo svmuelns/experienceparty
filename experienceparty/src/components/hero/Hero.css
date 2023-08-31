@@ -409,9 +409,10 @@ main
 .pushable {
     background: #3c6576;
     border: none;
-    border-radius: 0.75em;
+    border-radius: 1.25em;
     padding: 0;
     cursor: pointer;
+    box-shadow: inset 0 0 0 3.5px #fff, 0.625em 0.625em #83838340;
 }  
 .front {
     display: block;
