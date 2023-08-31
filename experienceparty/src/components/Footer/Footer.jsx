@@ -12,10 +12,13 @@ function FooterSection() {
                 Private event<span className="accent">?</span> Book now<span className="accent">.</span>
             </h1>
             <div className='hero__buttons'>
-                <a href="#" className='footer__button hero-button primary-button button'>
-                    <FaPhoneAlt />
-                    Call Us
-                </a>
+                <button className="pushable">
+                    <a href="#" className='footer__button front'>
+                        <FaPhoneAlt />
+                        Call Us
+                    </a>
+                </button>
+
             </div>
         </div>
         <div className='footer__div'>

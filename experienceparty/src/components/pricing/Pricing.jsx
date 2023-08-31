@@ -46,10 +46,12 @@ function PricingSection() {
                     </ul>
                     <div className="card__buttons">
                         <div className="hero__buttons">
-                            <a href="#" className='hero-button primary-button button'>
-                                <FaTicketAlt />
-                                Buy Ticket
-                            </a>
+                            <button className='pushable'>
+                                <a href='#home' className='front'>
+                                    <FaTicketAlt />
+                                    Buy Ticket    
+                                </a>
+                            </button>
                         </div>
                         
                     </div>
@@ -89,10 +91,12 @@ function PricingSection() {
                     </ul>
                     <div className="card__buttons">
                         <div className="hero__buttons">
-                            <a href="#" className='hero-button primary-button button'>
-                                <FaTicketAlt />
-                                Buy Ticket
-                            </a>
+                            <button className='pushable'>
+                                <a href='#home' className='front'>
+                                    <FaTicketAlt />
+                                    Buy Ticket    
+                                </a>
+                            </button>
                         </div>
                         
                     </div>
@@ -131,10 +135,12 @@ function PricingSection() {
                     </ul>
                     <div className="card__buttons">
                         <div className="hero__buttons">
-                            <a href="#" className='hero-button primary-button button'>
-                                <FaTicketAlt />
-                                Buy Ticket
-                            </a>
+                            <button className='pushable'>
+                                <a href='#home' className='front'>
+                                    <FaTicketAlt />
+                                    Buy Ticket    
+                                </a>
+                            </button>
                         </div>
                         
                     </div>
