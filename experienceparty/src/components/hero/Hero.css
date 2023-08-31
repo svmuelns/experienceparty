@@ -407,20 +407,23 @@ main
 }
 
 .pushable {
-    background: hsl(340deg 100% 32%);
+    background: #3c6576;
     border: none;
-    border-radius: 12px;
+    border-radius: 0.75em;
     padding: 0;
     cursor: pointer;
 }  
 .front {
     display: block;
-    padding: 12px 42px;
-    border-radius: 12px;
+    font-weight: 600;
+    border: 3.5px solid white;
+    padding: 1em 1.7em;
+    font-size: 1rem;
+    border-radius: 0.75em;
     font-size: 1.25rem;
-    background: hsl(345deg 100% 47%);
+    background: #3bb3b5;
     color: white;
-    transform: translateY(-0.5em);
+    transform: translate3d(-0.5em, -0.5em, 0);
     transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
 }
 .pushable:hover .front {
