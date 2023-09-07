@@ -18,6 +18,7 @@
     --scroll-bar-color: hsl(213, 12%, 90%);
     --scroll-thumb-color: hsl(213, 12%, 75%);
     --scroll-bar-light: hsl(213, 8%, 60%);
+    --body-color: black;
     
     /* ------------- font and typography ---------------*/
 
@@ -452,6 +453,12 @@ main
     .bear{
         max-height: 500px;
     }
+    .hero__container{
+        justify-content: space-around;
+    }
+    .hero__container > .hero__buttons{
+        margin-bottom: 4rem;
+    }
 }
 @media screen and (min-width: 500px){
     .secondary-button{
@@ -460,6 +467,12 @@ main
     }
     .bear{
         max-height: 600px;
+    }
+    .hero__container{
+        justify-content: space-around;
+    }
+    .hero__container > .hero__buttons{
+        margin-bottom: 4rem;
     }
 }
 @media screen and (min-width: 645px){
