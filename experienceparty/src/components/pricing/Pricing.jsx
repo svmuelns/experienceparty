@@ -10,6 +10,11 @@ function PricingSection() {
             <div className="separator__container">
                 <div className="separator"></div>
             </div>
+            <div className="contact__subheaders">
+                <h2 className="contact__subheader service__subheader">
+                    To enjoy the most out of our <span className="accent">pubcrawl</span>, you can choose how much you want to drink, and how <span className='accent'>special</span> you want it to be.
+                </h2>
+            </div>
             <div className="card__container grid">
                 <article className="card__article grid">
                     <header className="card__header">

@@ -13,7 +13,7 @@ function FooterSection() {
             </h1>
             <div className='hero__buttons'>
                 <button className="pushable">
-                    <a href="#" className='footer__button front'>
+                    <a href="tel:+34692051943" className='footer__button front'>
                         <FaPhoneAlt />
                         Call Us
                     </a>
@@ -36,30 +36,30 @@ function FooterSection() {
                         </div>
                         <div className='footer__subheaders'>
                             <p className='button-subheader'>
-                                000 00 00
+                                +34 692051943
                             </p>
                             <p className='button-subheader'>
-                                Party Produce SLS
+                                Party Producer SLS
                             </p>
                         </div>
                     </div>
                     <div className='footer__info'>
                         <div className='footer__buttons'>
-                            <a href="https://api.whatsapp.com/send?phone=13054388987" className='footer-button'>
+                            <a href="https://api.whatsapp.com/send?phone=34692051943" className='footer-button'>
                                 <FaWhatsapp />
                                 Whatsapp
                             </a>
-                            <a href="mailto:duowngarage@gmail.com" className='footer-button'>
+                            <a href="mailto:partyproducersls@gmail.com" className='footer-button'>
                                 <FaEnvelope />
                                 Email
                             </a>
                         </div>
                         <div className='footer__subheaders'>
                             <p className='button-subheader'>
-                                +34 000 00 00
+                                +34 692051943
                             </p>
                             <p className='button-subheader'>
-                                partyproducer@gmail.com
+                                partyproducersls@gmail.com
                             </p>
                         </div>
                     </div>
