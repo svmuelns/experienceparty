@@ -11,7 +11,7 @@ function PricingSection() {
                 <div className="separator"></div>
             </div>
             <div className="contact__subheaders">
-                <h2 className="contact__subheader service__subheader">
+                <h2 className="contact__subheader service__subheader" id='ql'>
                     To enjoy the most out of our <span className="accent">pubcrawl</span>, you can choose how much you want to drink, and how <span className='accent'>special</span> you want it to be.
                 </h2>
             </div>
