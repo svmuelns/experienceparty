@@ -53,7 +53,7 @@ function Navbar() {
                         </a>
                     </li>
                     <li className="nav__item"> 
-                        <a href="#contact" onClick={toggle} className={`nav__link ${color? 'scrolling-font-color': ''}`}>
+                        <a href="#footer" onClick={toggle} className={`nav__link ${color? 'scrolling-font-color': ''}`}>
                             Contact
                         </a>
                     </li>

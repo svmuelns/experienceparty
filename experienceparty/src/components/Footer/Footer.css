@@ -81,6 +81,12 @@
     margin: 0 auto;
     padding: 1em 1em !important;
 }
+.footer__copyright{
+    bottom: 2rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
 #madeby{
     font-size: var(--small-font-size);
     text-align: right;
@@ -101,7 +107,7 @@
         flex-direction: row;
     }
     .footer__div{
-        padding-bottom: 2rem;
+        padding-bottom: 3rem;
     }
     .footer__titles{
         margin-top: 45vh;
