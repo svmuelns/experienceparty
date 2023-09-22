@@ -81,7 +81,7 @@ function PricingSection() {
                                 <TbHandRock/>
                             </i>
                             <p className="card__description">
-                                1 drink and shot in every place
+                                Only 1 drink. + Shot in every place
                             </p>
                         </il>
                         <il className="card__item">
